@@ -1,7 +1,9 @@
 package com.example;
-
+import java.util.Date;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Date current = new Date();
+        
+        System.out.println(current);
     }
 }
